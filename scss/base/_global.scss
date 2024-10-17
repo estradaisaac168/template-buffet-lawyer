@@ -11,6 +11,24 @@ body {
     padding: 6rem 0;
 }
 
+// .section-curve-end-accent {
+//     @extend .section;
+//     background-color: v.$accent-color;
+//     border-radius: 0 0 50px 50px; /* Solo curva la parte inferior */
+// }
+
+.w-lg-auto{
+
+    width: 100%;
+
+    @include m.breakpoint-up(lg){
+
+        width: 75%;
+        margin: 0 auto;
+
+    }
+}
+
 .heading-hero {
     display: inline-block;
     font-weight: 700;

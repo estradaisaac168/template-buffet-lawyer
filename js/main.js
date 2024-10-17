@@ -38,6 +38,18 @@ elementos.forEach(el => {
 
 
 
+// Efectt navbar
+window.onscroll = function () {
+    const navbar = document.getElementById('navbar');
+    if (window.scrollY > 75) { // Cambia 50 por el número de píxeles que prefieras
+        navbar.classList.add('scrolled');
+    } else {
+        navbar.classList.remove('scrolled');
+    }
+};
+
+
+
 // document.addEventListener('contextmenu', function (e) {
 //     e.preventDefault();
 // });

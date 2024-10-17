@@ -32,9 +32,9 @@
     <!-- HEADER -->
 
     <!-- NAVBAR TO NAVIGATE THE SECTIONS OF THE PAGE -->
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-gradient fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">Johanna Garcia</a>
+            <a class="navbar-brand" href="#">Law Firm</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -42,42 +42,36 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#about">Sobre mi</a>
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#services">Servicios</a>
+                        <a class="nav-link" href="./about.html">About</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#fqa">Preguntas Frecuentes</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#contact">Contacto</a>
-                    </li>
-
-                    <!-- <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Another link
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
                         </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Service one</a></li>
+                            <li><a class="dropdown-item" href="#">Service two</a></li>
+                            <li><a class="dropdown-item" href="#">Service thre</a></li>
+                            <li><a class="dropdown-item" href="#">Service four</a></li>
+                            <li><a class="dropdown-item" href="#">Service five</a></li>
                             <li><a class="dropdown-item" href="#">Another action</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
-                    </li> -->
-                </ul>
+                    </li>
 
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
                 <div class="d-flex">
-                    <a href="#" class="btn btn-outline-secondary button-navbar btn-lg">Agendar
-                        cita</a>
+                    <a href="#" class="btn btn-outline-secondary button-navbar btn-lg">Schedule an Appointment</a>
                 </div>
             </div>
         </div>
@@ -98,47 +92,6 @@
         </div>
     </section>
 
-    <div class="section benefits bg-tertiary">
-        <div class="container">
-            <div class="content-benefits">
-                <div class="content-title mb-0">
-                    <h2 class="heading text-tertiary text-white title-animation">Mis servicios incluyen</h2>
-                    <hr class="text-secondary my-3">
-                </div>
-
-                <div class="list-benefits text-white">
-                    <div class="list-grid animation-right">
-                        <i class="bi bi-person-check"></i>
-                        <p class="list-benefits-item"><strong>Asesoría
-                                Personalizada:</strong> Cada cliente recibe atención
-                            individualizada para entender sus necesidades específicas.</p>
-                    </div>
-                    <div class="list-grid animation-right">
-                        <i class="bi bi-alarm"></i>
-                        <p class="list-benefits-item"><strong>Atención 24/7:</strong> Estamos
-                            disponibles para atender tus
-                            consultas en cualquier momento.</p>
-                    </div>
-                    <div class="list-grid animation-right">
-                        <i class="bi bi-coin"></i>
-                        <p class="list-benefits-item"><strong>Descuentos para Clientes
-                                Recurrentes:</strong> Beneficios
-                            exclusivos para nuestros clientes que repiten.</p>
-                    </div>
-                    <div class="list-grid animation-right">
-                        <i class="bi bi-bookmark-plus"></i>
-                        <p class="list-benefits-item"><strong>Recursos
-                                Educativos:</strong> Proporcionamos guías y artículos
-                            útiles sobre temas legales relevantes.</p>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-
     <!-- SERVICE -->
     <section id="service" class="section service bg-white">
 
@@ -146,7 +99,7 @@
 
             <div class="row service-content">
 
-                <div class="col-md-12 col-lg-6 pb-3 p-md-3 d-flex justify-content-center align-items-center">
+                <div class="col-md-12 pb-3 p-md-3 d-flex justify-content-center align-items-start">
                     <div class="service-content-description">
 
                         <h2 class="heading text-uppercase text-start title-animation">Servicio uno</h2>
@@ -163,9 +116,16 @@
                             navegar por el complejo mundo legal. Nos aseguramos de que nuestros clientes comprendan sus
                             derechos y opciones, ofreciendo una atención cercana y accesible.</p>
 
+                        <p class="text-animation">Contamos con un equipo de abogados expertos que están
+                            listos para ayudar a nuestros clientes a Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Sint quae quas facilis dicta odio corporis neque debitis exercitationem, veritatis
+                            nihil quaerat alias repellat officia! Consectetur ex omnis provident tenetur enim!
+                            navegar por el complejo mundo legal. Nos aseguramos de que nuestros clientes comprendan sus
+                            derechos y opciones, ofreciendo una atención cercana y accesible.</p>
+
                     </div>
                 </div>
-                <div class="col-md-12 col-lg-6 p-md-3 d-flex justify-content-center align-items-center">
+                <div class="col-md-12 p-md-3">
                     <img src="./img/service1.jpg" class="img-fluid service-content-image fade-in animation-right"
                         loading="lazy" alt="About">
                 </div>
@@ -174,25 +134,65 @@
 
     </section>
 
-
-    <section id="service" class="section service bg-accent">
-
+    <div class="section benefits bg-accent">
         <div class="container">
+            <div class="row content-benefits">
+                <div class="content-title text-start mb-0">
+                    <h2 class="heading text-tertiary title-animation">Mis servicios incluyen</h2>
+                    <hr class="text-secondary my-3">
+                </div>
 
-            <div class="service-areas">
-                <p class="text-animation">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Voluptatum beatae mollitia inventore totam magnam dolore molestias, enim eaque earum architecto ad
-                    in? Iste laborum amet temporibus in harum eveniet non. Lorem ipsum dolor sit, amet consectetur
-                    adipisicing elit. Quo a fuga assumenda illo quidem ut dolor tempora, illum natus, perspiciatis
-                    nesciunt nemo incidunt tenetur cupiditate omnis molestiae. Placeat, iusto quo?</p>
+                <div class="col-md-12 col-lg-10 offset-lg-1">
+                    <div class="list-benefits">
+                        <div class="list-grid animation-right">
+                            <i class="bi bi-person-check"></i>
+                            <p class="list-benefits-item"><strong>Asesoría
+                                    Personalizada:</strong> Cada cliente recibe atención
+                                individualizada para entender sus necesidades específicas.</p>
+                        </div>
+                        <div class="list-grid animation-right">
+                            <i class="bi bi-alarm"></i>
+                            <p class="list-benefits-item"><strong>Atención 24/7:</strong> Estamos
+                                disponibles para atender tus
+                                consultas en cualquier momento.</p>
+                        </div>
+                        <div class="list-grid animation-right">
+                            <i class="bi bi-coin"></i>
+                            <p class="list-benefits-item"><strong>Descuentos para Clientes
+                                    Recurrentes:</strong> Beneficios
+                                exclusivos para nuestros clientes que repiten.</p>
+                        </div>
+                        <div class="list-grid animation-right">
+                            <i class="bi bi-bookmark-plus"></i>
+                            <p class="list-benefits-item"><strong>Recursos
+                                    Educativos:</strong> Proporcionamos guías y artículos
+                                útiles sobre temas legales relevantes.</p>
+                        </div>
 
-                <p class="text-animation">Lorem ipsum dolor sit, amet consectetur
-                    adipisicing elit. Quo a fuga assumenda illo quidem ut dolor tempora, illum natus, perspiciatis
-                    nesciunt nemo incidunt tenetur cupiditate omnis molestiae. Placeat, iusto quo?</p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="service-areas mt-5">
+                        <p class="text-animation">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Voluptatum beatae mollitia inventore totam magnam dolore molestias, enim eaque earum
+                            architecto
+                            ad
+                            in? Iste laborum amet temporibus in harum eveniet non. Lorem ipsum dolor sit, amet
+                            consectetur
+                            adipisicing elit. Quo a fuga assumenda illo quidem ut dolor tempora, illum natus,
+                            perspiciatis
+                            nesciunt nemo incidunt tenetur cupiditate omnis molestiae. Placeat, iusto quo?</p>
+
+                        <p class="text-animation">Lorem ipsum dolor sit, amet consectetur
+                            adipisicing elit. Quo a fuga assumenda illo quidem ut dolor tempora, illum natus,
+                            perspiciatis
+                            nesciunt nemo incidunt tenetur cupiditate omnis molestiae. Placeat, iusto quo?</p>
+                    </div>
+                </div>
             </div>
         </div>
 
-    </section>
+    </div>
 
 
     <!-- FQA -->

@@ -6,15 +6,15 @@
 .navbar {
 
     padding: 1.2rem 0;
-    background-color: v.$primary-color;
-    border-bottom: 1px solid rgba(212, 175, 55, 0.3);
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    // background-color: v.$primary-color;
+    // border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+    // box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
 
-    @include m.breakpoint-up(lg) {
-        position: sticky;
-        top: 0;
-        z-index: 1020;
-    }
+    // @include m.breakpoint-up(lg) {
+    //     position: sticky;
+    //     top: 0;
+    //     z-index: 1020;
+    // }
 
     .navbar-brand {
         color: v.$white;
@@ -74,5 +74,19 @@
         }
     }
 }
+
+.navbar.bg-transparent {
+    background-color: transparent;
+    transition: background-color 0.4s ease;
+}
+
+.navbar.scrolled {
+    background-color: v.$primary-color;
+    border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    /* Color al hacer scroll */
+    transition: background-color 0.4s ease;
+}
+
 
 // END NAVBAR

@@ -9,7 +9,7 @@
         width: 100%;
         margin: 0 auto;
 
-        @include m.breakpoint-up(md) {
+        @include m.breakpoint-up(lg) {
             width: 80%;
         }
     }

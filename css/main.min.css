@@ -2364,11 +2364,11 @@ textarea.form-control-lg {
 .form-check-input:focus {
   border-color: rgba(var(--bs-secondary-rgb), 0.8);
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  box-shadow: rgb(212, 175, 55);
 }
 .form-check-input:checked {
-  background-color: #0d6efd;
-  border-color: #0d6efd;
+  background-color: #1C1C1C;
+  border-color: #1C1C1C;
 }
 .form-check-input:checked[type=checkbox] {
   --bs-form-check-bg-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e");
@@ -11745,6 +11745,16 @@ body {
   padding: 6rem 0;
 }
 
+.w-lg-auto {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .w-lg-auto {
+    width: 75%;
+    margin: 0 auto;
+  }
+}
+
 .heading-hero {
   display: inline-block;
   font-weight: 700;
@@ -11951,8 +11961,8 @@ body {
 }
 
 .mini-hero {
-  background: url("../img/hero.jpg") no-repeat center center/cover;
-  height: 20rem;
+  background: url("../img/service5.jpg") no-repeat center center/cover;
+  height: 30rem;
 }
 .mini-hero .container {
   position: relative;
@@ -11969,16 +11979,6 @@ body {
 
 .navbar {
   padding: 1.2rem 0;
-  background-color: #1C1C1C;
-  border-bottom: 1px solid rgba(212, 175, 55, 0.3);
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
-}
-@media (min-width: 992px) {
-  .navbar {
-    position: sticky;
-    top: 0;
-    z-index: 1020;
-  }
 }
 .navbar .navbar-brand {
   color: #FFFFFF;
@@ -12018,6 +12018,19 @@ body {
   .navbar .button-navbar {
     margin: 0 1.5rem;
   }
+}
+
+.navbar.bg-transparent {
+  background-color: transparent;
+  transition: background-color 0.4s ease;
+}
+
+.navbar.scrolled {
+  background-color: #1C1C1C;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+  /* Color al hacer scroll */
+  transition: background-color 0.4s ease;
 }
 
 .footer {
@@ -12245,21 +12258,11 @@ body {
 .service .service-content-image {
   border: 1px solid rgb(212, 175, 55);
   border-radius: 0.5rem;
-  min-height: 100%;
   object-fit: cover;
 }
 
 .benefits {
   overflow: hidden;
-}
-.benefits .content-benefits .list-benefits {
-  width: 100%;
-}
-@media (min-width: 992px) {
-  .benefits .content-benefits .list-benefits {
-    width: 80%;
-    margin: 0 auto;
-  }
 }
 .benefits .content-benefits .list-benefits .list-grid {
   display: flex;
@@ -12287,7 +12290,7 @@ body {
 
 .hero {
   background: url("../img/hero.webp") no-repeat center center/cover;
-  min-height: 37.5rem;
+  min-height: 50rem;
 }
 .hero .container {
   position: relative;
@@ -12334,7 +12337,7 @@ body {
   width: 100%;
   margin: 0 auto;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .fqa .card {
     width: 80%;
   }

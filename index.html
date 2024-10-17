@@ -33,9 +33,9 @@
 <body>
     <!-- HEADER -->
     <!-- NAVBAR TO NAVIGATE THE SECTIONS OF THE PAGE -->
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-gradient fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">Johanna Garcia</a>
+            <a class="navbar-brand" href="#">Law Firm</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -43,38 +43,36 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">Sobre mi</a>
+                        <a class="nav-link" href="./about.html">About</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Servicios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#fqa">Preguntas Frecuentes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contacto</a>
-                    </li>
-                    <!-- <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Another link
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
                         </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Service one</a></li>
+                            <li><a class="dropdown-item" href="#">Service two</a></li>
+                            <li><a class="dropdown-item" href="#">Service thre</a></li>
+                            <li><a class="dropdown-item" href="#">Service four</a></li>
+                            <li><a class="dropdown-item" href="#">Service five</a></li>
                             <li><a class="dropdown-item" href="#">Another action</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
-                    </li> -->
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
                 </ul>
                 <div class="d-flex">
-                    <a href="#" class="btn btn-outline-secondary button-navbar btn-lg">Agendar
-                        cita</a>
+                    <a href="#" class="btn btn-outline-secondary button-navbar btn-lg">Schedule an Appointment</a>
                 </div>
             </div>
         </div>
@@ -90,17 +88,16 @@
         <div class="hero-overlay"></div>
         <div class="container">
             <div class="hero-content text-white text-center text-lg-start">
-                <h1 class="heading-hero display-3 title-animation">Johanna Garcia Abogado y Notario</h1>
+                <h1 class="heading-hero display-3 title-animation">Lorem ipsum dolor sit amet consectetur.</h1>
                 <p class="lead mb-4 fs-3 text-animation">
-                    ¿Necesitas asesoria o realizar tramites legales?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
                 <div class="d-grid gap-4 d-md-block">
-                    <a href="#services" class="hero-button btn btn-lg  btn-secondary text-dark">Servicios
-                        profesionales</a>
-                    <a href="#services" class="hero-button btn btn-lg  btn-outline-accent ms-md-2">Consulta gratis</a>
+                    <a href="#services" class="hero-button btn btn-lg  btn-secondary text-dark">Services</a>
+                    <a href="#services" class="hero-button btn btn-lg  btn-outline-accent ms-md-2">Free consultation</a>
                 </div>
                 <div class="mt-3">
-                    <p class="">Clientes satisfechos: 87 / 90</p>
+                    <p class="">Satisfied customers: 87 / 100</p>
                     <span class="bi bi-star-fill text-secondary"></span>
                     <span class="bi bi-star-fill text-secondary"></span>
                     <span class="bi bi-star-fill text-secondary"></span>
@@ -116,9 +113,9 @@
     <section class="section why bg-white">
         <div class="container">
             <div class="content-title">
-                <h2 class="heading display title-animation">¿Por qué elegirme?</h2>
-                <p class="lead text-muted text-animation">Brindo servicios legales de calidad que se adaptan a tus
-                    necesidades.</p>
+                <h2 class="heading display title-animation">¿Why us?</h2>
+                <p class="lead text-muted text-animation w-lg-auto ">Lorem ipsum dolor sit, amet consectetur adipisicing
+                    elit. </p>
                 <hr class="text-secondary my-3">
             </div>
             <div class="why-content-cards">
@@ -155,25 +152,28 @@
     <section id="about" class="section about">
         <div class="container">
 
-            <div class=" row about-content mt-lg-5">
-                <div class="col-12 col-lg-6 pb-3 p-md-3 d-flex align-items-center justify-content-center">
-                    <div class="about-content-description">
-                        <h2 class="heading text-uppercase text-start title-animation">Sobre mi</h2>
-                        <p class="text-black animation-left">Soy [Tu Nombre], un abogado con más de [X años] de
-                            experiencia en [menciona áreas de práctica, como derecho civil, comercial, familiar, etc.].
-                            Me
-                            apasiona ayudar a mis clientes a resolver sus problemas legales de manera efectiva y
-                            brindarles
-                            asesoría personalizada. Mi compromiso es ofrecer soluciones adaptadas a cada situación,
-                            garantizando que mis clientes se sientan apoyados y seguros en cada paso del proceso.</p>
+            <div class=" row about-content">
+                <div class="order-2 col-12 col-lg-6 pb-4 p-md-3 d-flex align-items-center justify-content-center">
+                    <div class="about-content-description d-flex flex-column align-items-start">
+                        <h2 class="heading text-uppercase text-start title-animation">About us</h2>
+                        <p class="text-black animation-left mb-4">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                            Mollitia, corporis. Eius, placeat delectus. Placeat, incidunt ratione sit, mollitia enim
+                            porro dolorum similique tenetur nisi reiciendis cumque? Pariatur, reiciendis. Mollitia,
+                            porro Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum maiores dolores
+                            recusandae, dolor sed voluptas, distinctio molestias officiis id aspernatur voluptatibus
+                            minima voluptatum nobis eos omnis dolorum error vero dignissimos?.</p>
+                        <a href="./about.html" class="btn btn-lg btn-outline-primary">Read more</a>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6 p-md-3 d-flex flex-column align-items-center justify-content-center">
+                <div
+                    class="order-1 col-12 col-lg-6 p-md-3 d-flex flex-column align-items-center justify-content-center">
                     <img src="./img/about.webp" class="img-fluid about-content-image fade-in animation-right" width=""
                         height="" loading="lazy" alt="About">
                 </div>
             </div>
         </div>
+
     </section>
 
 
@@ -181,8 +181,9 @@
     <main id="services" class="section services bg-white">
         <div class="container">
             <div class="content-title">
-                <h2 class="heading title-animation">Mis servicios</h2>
-                <p class="lead text-animation text-muted text-center m-auto w-75">Tengo la solucion a tu problema legal
+                <h2 class="heading title-animation">Our Professional Services</h2>
+                <p class="lead text-animation text-muted text-center w-md-auto">Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit.
                 </p>
                 <hr class="text-secondary my-3">
             </div>
@@ -339,7 +340,7 @@
             <div class="fqa-content">
                 <div class="content-title">
                     <h2 class="heading title-animation">Preguntas frecuentes</h2>
-                    <p class="lead text-animation text-muted text-center m-auto w-75">Encuentra
+                    <p class="lead text-animation text-muted text-center w-md-auto">Encuentra
                         respuestas a
                         las preguntas más comunes. Estoy aquí para
                         ayudarte.
@@ -455,11 +456,12 @@
     <!-- CONTACT -->
     <section id="contact" class="section contact bg-accent">
         <div class="container">
-            <div class="row contact-content mt-lg-5">
-                <div class="col-md-12 col-lg-6 pb-3 p-md-3 d-flex justify-content-center align-items-center">
+            <div class="row contact-content">
+
+                <div class="col-md-12 col-lg-6 pb-3 p-md-3 d-flex justify-content-beetwen align-items-start">
                     <div class="content-title mb-5">
                         <div class="text-start">
-                            <h2 class="heading title-animation">Contáctame</h2>
+                            <h2 class="heading title-animation">Contact us</h2>
                         </div>
                         <p class="animation-left text-muted text-start">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto dolores quia provident
@@ -468,75 +470,95 @@
                             consequatur ut sapiente..
                         </p>
 
-                        <p class="animation-left text-muted text-start w-75"><i class="bi bi-alarm"></i> Respuesta en
-                            horarios habiles</p>
-                        <p class="animation-left text-muted text-start w-75"><i class="bi bi-calendar-day"></i> Puedes
-                            agendar una cita</p>
-                        <p class="animation-left text-muted text-start w-75"><i class="bi bi-fingerprint"></i>
-                            Proteccion de
-                            tus datos</p>
+                        <div class="contact-info text-start text-muted">
+                            <div class="info-item">
+                                <h4>Office Address</h4>
+                                <p>123 Main St, Suite 456<br>City, State, ZIP Code</p>
+                            </div>
+                            <div class="info-item">
+                                <h4>Phone</h4>
+                                <p><a href="tel:+1234567890" class="btn-link link-secondary">(123) 456-7890</a></p>
+                            </div>
+                            <div class="info-item">
+                                <h4>Email</h4>
+                                <p><a href="mailto:info@lawfirm.com"
+                                        class="btn-link link-secondary">info@lawfirm.com</a></p>
+                            </div>
+                            <div class="info-item">
+                                <h4>Business Hours</h4>
+                                <p>Monday - Friday: 9:00 AM - 6:00 PM<br>Saturday: By Appointment Only</p>
+                            </div>
+                        </div>
                         <!-- <hr class="mb-4 text-secondary"> -->
                     </div>
                 </div>
+
                 <div class="col-md-12 col-lg-6 p-md-3 d-flex justify-content-center align-items-center">
                     <div class="contact-form animation-right bg-white">
                         <form class="form p-4 p-xl-5">
+
                             <div class="mb-4">
-                                <label for="nombre" class="form-label">Nombre</label>
+                                <label for="nombre" class="form-label">Name</label>
                                 <input type="text" class="form-control" id="nombre" placeholder="">
                             </div>
+
                             <div class="mb-4">
-                                <label for="correo" class="form-label">Correo Electrónico</label>
+                                <label for="correo" class="form-label">Email</label>
                                 <input type="email" class="form-control" id="correo" placeholder="">
                             </div>
+
                             <div class="mb-4">
-                                <label for="asunto" class="form-label">Asunto</label>
+                                <label for="asunto" class="form-label">Subject</label>
                                 <input type="text" class="form-control" id="asunto" placeholder="">
                             </div>
+
                             <div class="mb-4">
-                                <label for="message" class="form-label">Mensaje</label>
+                                <label for="message" class="form-label">Message</label>
                                 <textarea class="form-control" id="message" rows="4" placeholder=""></textarea>
                             </div>
+
+                            <div class="form-check mb-4">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                <label class="form-check-label" for="flexCheckChecked">
+                                    I accept terms and conditions
+                                </label>
+                            </div>
+
+                            <div class="form-text mb-4">
+                                Your password must be 8-20 characters long, contain letters and numbers, and must not
+                                contain spaces, special characters, or emoji.
+                            </div>
+
                             <div class="text-center">
                                 <button type="submit"
-                                    class="btn bg-primary text-white d-block w-100 btn-submit">Enviar</button>
+                                    class="btn bg-primary text-white d-block w-100 btn-submit">Send</button>
                             </div>
+
                         </form>
                     </div>
                 </div>
-                <!-- <div class="row mt-5 justify-content-center">
 
-                    <div class="col-md-8 col-lg-6">
-                        
-                        <div class="contact-form bg-white">
-                            <form class="form p-4 p-xl-5">
-                                <div class="mb-4">
-                                    <label for="nombre" class="form-label">Nombre</label>
-                                    <input type="text" class="form-control" id="nombre" placeholder="">
-                                </div>
-                                <div class="mb-4">
-                                    <label for="correo" class="form-label">Correo Electrónico</label>
-                                    <input type="email" class="form-control" id="correo" placeholder="">
-                                </div>
-                                <div class="mb-4">
-                                    <label for="asunto" class="form-label">Asunto</label>
-                                    <input type="text" class="form-control" id="asunto" placeholder="">
-                                </div>
-                                <div class="mb-4">
-                                    <label for="message" class="form-label">Mensaje</label>
-                                    <textarea class="form-control" id="message" rows="4" placeholder=""></textarea>
-                                </div>
-                                <div class="text-center">
-                                    <button type="submit"
-                                        class="btn bg-primary text-white d-block w-100 btn-submit">Enviar</button>
-                                </div>
-                            </form>
-                        </div>
+                <div class="col-12 p-md-3">
+                    <!-- MAP -->
+
+                    <div class="content-title text-start mt-5">
+                        <h2 class="heading title-animation">Find us here</h2>
+                        <hr class="mb-4 text-secondary">
                     </div>
-                </div> -->
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345096397!2d144.9537353154481!3d-37.81621817975171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f3f4d2d1%3A0x2e22305c34e5e80!2sMelbourne%20Central!5e0!3m2!1sen!2sau!4v1602632022724!5m2!1sen!2sau"
+                            width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                            aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+
+
+                </div>
+
             </div>
         </div>
     </section>
+
 
     <!-- Botón flotante de WhatsApp -->
     <a href="https://wa.me/tu-numero-de-whatsapp" target="_blank" class="whatsapp-button">
